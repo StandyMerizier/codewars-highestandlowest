@@ -5,3 +5,11 @@ function highAndLow(numbers){
   return max + " " + min
   console.log(max + " " + min)
 }
+
+
+//another solution
+function highAndLow(numbers){
+  numbers = numbers.split(' ');
+  return `${Math.max(...numbers)} ${Math.min(...numbers)}`;
+}
+
